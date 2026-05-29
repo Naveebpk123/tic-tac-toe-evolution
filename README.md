@@ -11,6 +11,12 @@ Phase 1 is the current public release.
 
 This version is a local 2-player CLI Tic-Tac-Toe game where two people can play on the same computer through the terminal.
 
+## Current Development
+
+Phase 2 is now being rebuilt on the `feature/minimax` branch.
+
+This phase adds a minimax-based AI opponent while keeping the CLI version available.
+
 ## Project Roadmap
 
 ### Phase 1: CLI Local Multiplayer
@@ -22,7 +28,7 @@ This version is a local 2-player CLI Tic-Tac-Toe game where two people can play 
 - Win and draw detection
 
 ### Phase 2: CLI With Minimax AI
-- Status: Planned for next release
+- Status: In progress
 - Play against a minimax-based AI opponent
 - Keep the CLI experience while adding single-player mode
 
@@ -43,6 +49,7 @@ This version is a local 2-player CLI Tic-Tac-Toe game where two people can play 
 tic-tac-toe-evolution/
 |- .gitignore
 |- 01-CLI-version/
+|- 02-minimax-version/
 |- LICENSE
 |- README.md
 ```
@@ -50,10 +57,11 @@ tic-tac-toe-evolution/
 ## Phase Guides
 
 - [Phase 1 README](./01-CLI-version/README.md)
+- [Phase 2 README](./02-minimax-version/README.md)
 
 ## Running The Current Release
 
-Phase 1 is the version meant to be showcased first.
+Phase 2 is the current release
 
 ```bash
 cd 01-CLI-version
