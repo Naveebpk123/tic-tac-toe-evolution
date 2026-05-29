@@ -7,15 +7,9 @@ A Python Tic-Tac-Toe project that grows in phases from a simple terminal game in
 
 ## Current Release
 
-Phase 1 is the current public release.
+Phase 2 is the current public release.
 
-This version is a local 2-player CLI Tic-Tac-Toe game where two people can play on the same computer through the terminal.
-
-## Current Development
-
-Phase 2 is now being rebuilt on the `feature/minimax` branch.
-
-This phase adds a minimax-based AI opponent while keeping the CLI version available.
+This version adds a minimax-based AI opponent while still keeping local 2-player mode available in the terminal.
 
 ## Project Roadmap
 
@@ -28,7 +22,7 @@ This phase adds a minimax-based AI opponent while keeping the CLI version availa
 - Win and draw detection
 
 ### Phase 2: CLI With Minimax AI
-- Status: In progress
+- Status: Released
 - Play against a minimax-based AI opponent
 - Keep the CLI experience while adding single-player mode
 
@@ -61,10 +55,10 @@ tic-tac-toe-evolution/
 
 ## Running The Current Release
 
-Phase 2 is the current release
+Phase 2 is the current release.
 
 ```bash
-cd 01-CLI-version
+cd 02-minimax-version
 python main.py
 ```
 

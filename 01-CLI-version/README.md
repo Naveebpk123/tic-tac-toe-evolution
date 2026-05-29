@@ -52,7 +52,7 @@ _|_|X
 
 ## Part Of The Bigger Project
 
-This phase is the foundation for future versions of the project:
+This phase is the foundation that led into the later project releases:
 
 - Phase 2: CLI with minimax AI
 - Phase 3: Tkinter GUI

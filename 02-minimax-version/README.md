@@ -19,16 +19,16 @@ Phase 2 keeps the terminal-based gameplay from phase 1, but adds a minimax-power
 
 ## How To Run
 
-When the phase is complete, run:
+To run this release:
 
 ```bash
 cd 02-minimax-version
 python main.py
 ```
 
-## Development Note
+## Notes
 
-This phase is being rebuilt after phase 1 so the progress stays authentic and each release has its own timeline.
+This release includes both local 2-player mode and minimax AI mode.
 
 ## Next Steps
 

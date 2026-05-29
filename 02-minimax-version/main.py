@@ -15,10 +15,11 @@ def game():
     
     while True:
         choice = input("Type '1' to play against AI\nType '2' to play 2 player mode\n")
-        if choice not in ['1','2']:
-            print("Invalid input. Defaulting game mode to AI mode")
-        is_ai = False if choice=='2' else True
-        break
+        if choice in ['1','2']:
+            is_ai = False if choice=='2' else True
+            break
+        print("Invalid input. Please try again")
+        
     while True:
         p1_marker = input("Player 1, do you want to be 'X' or 'O'?\n").upper()
         if p1_marker in ['X', 'O']:
